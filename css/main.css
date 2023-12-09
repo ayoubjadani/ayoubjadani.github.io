@@ -456,24 +456,28 @@ width: 100%;
     z-index: 10;
   }
 
-   .home__social{
+ .home__social{
     height: max-content;
     position: absolute;
    left: -2.2rem;
    top: 38%;
    margin: auto 0;
-   display: grid;
-   row-gap: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 0.5rem;
+ 
   }
 
   .home__social-link{
     background-color: var(--black-color-light);
     color: var(--white-color);
     font-size: 1.25rem;
-    padding: 6px;
+    padding: 2px;
     display: grid;
     place-items: center;
     transition:background-color .3s;
+    
   }
 
   .home__social-link:hover{
