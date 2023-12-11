@@ -12,7 +12,7 @@
 --text-color:hsl(0, 0%, 35%);
 --texte-color-light:hsl(0, 0%, 64%);
 --body-color:hsl(0, 0%, 87%);
---container-color:hsl(0, 0%, 83%);
+--container-color:hsl(0, 0%, 83%); 
 
 
 
@@ -456,7 +456,7 @@ width: 100%;
     z-index: 10;
   }
 
-  .home__social{
+ .home__social{
     height: max-content;
     position: absolute;
    left: -2.2rem;
@@ -1104,28 +1104,6 @@ margin-bottom:  .5rem;
 
   .contact__data .section__title-2{
    transform: translateX(0);
-  }
-  .home__social{
-    height: max-content;
-    position: absolute;
-   left: -1.5rem;
-   top: 38%;
-   bottom: 30%;
-   margin: auto 0;
-   display: grid;
-   row-gap: 1rem;
-  }
-
-  .home__social-link{
-    background-color: var(--black-color-light);
-    color: var(--white-color);
-    font-size: 1rem;
-    transition:background-color .3s;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
  }
 
