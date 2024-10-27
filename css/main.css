@@ -4,7 +4,7 @@
 :root{
 --header-height:3.5rem;
  /*============ colors ==========*/
---first-color: #2c5873;
+--first-color: hsl(13, 25%, 65%);
 --black-color:hsl(0, 0%, 0%);
 --black-color-light:hsl(0, 0%, 40%);
 --white-color:hsl(0, 0%, 95%);
